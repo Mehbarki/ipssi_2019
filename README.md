@@ -1,7 +1,7 @@
-# Projet Ipssi 2019 DevOps
+# Ipssi 2019 DevOps Project
 
-Ce projet a pour but d'apprendre les bases d'utilisation de git.
-De plus, il stockera les versionnements de mes scripts ipssi ! :)
+The purpose of this project is to learn the basics of using git.
+In addition, it will store the versions of my ipssi scripts ! :)
 
 
 ## Mehdi Mebarki
