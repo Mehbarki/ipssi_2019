@@ -1,0 +1,1000 @@
+  205  python fonctions.py
+  206  sudo apt-get install python
+  207  sudo apt-get install idle-python3.1
+  208  sudo apt-get install idle-python3
+  209  sudo apt-get install idle-python3.1
+  210  python fonctions.py
+  211  cd C:\Users\mehdi\OneDrive\Bureau\COURS\PYTHON
+  212  sudo cd C:\Users\mehdi\OneDrive\Bureau\COURS\PYTHON
+  213  pwd
+  214  cd C:\Users\mehdi\OneDrive\Bureau\COURS\PYTHON
+  215  cd C:/Users/mehdi/OneDrive/Bureau/COURS/PYTHON
+  216  cd ..
+  217  C:/Users/mehdi/OneDrive/Bureau/COURS/PYTHON
+  218  cd /toto
+  219  cd toto
+  220  cd PYTHON
+  221  cd \PYTHON
+  222  mount 
+  223  ls /mnt/c
+  224  ls /mnt/c/Users
+  225  sudo ls /mnt/c/Users
+  226  cd C:/Users/mehdi/OneDrive/Bureau/COURS/PYTHON
+  227  ls
+  228  ls -la
+  229  cd mehdi
+  230  ls -a
+  231  ls -l --color
+  232  ls -l /
+  233  cd etc
+  234  cd init
+  235  cd tmp
+  236  mkdir rep
+  237  ls
+  238  cd pytho,
+  239  cd python
+  240  cd ..
+  241  man ls
+  242  sudo man ls
+  243  apt-get search man page
+  244  apt-get search manpage
+  245  apt search manpage
+  246  apt search manpage | grep man
+  247  apt-get install manpages
+  248  sudo apt-get install manpages
+  249  man ls
+  250  sudo apt-get install man-db
+  251  man ls
+  252  man mkdir
+  253  mkdir
+  254  mkdir --help
+  255  touch
+  256  touch --help
+  257  touch fichier
+  258  ls
+  259  ls -a
+  260  ls -la
+  261  ls -l
+  262  cp fichier fichier2
+  263  ls
+  264  ls -l
+  265  cp -a fichier fichier2
+  266  ls -l
+  267  mount
+  268  cd /mnt/c
+  269  cd C:\Users\mehdi\OneDrive\Bureau\COURS\PYTHON
+  270  cd \Users\mehdi\OneDrive\Bureau\COURS\PYTHON
+  271  cd ..
+  272  mv fichier2 fichier3
+  273  ls
+  274  ls -l
+  275  cd /home
+  276  ls -l
+  277  ls -la
+  278  mv fichier2 fichier3
+  279  ls
+  280  cd pytho,
+  281  cd python
+  282  ls
+  283  py san_antonio.py
+  284  python san_antonio.py
+  285  cd ..
+  286  cd sublimehq-pub.gpg
+  287  cd rep
+  288  ls
+  289  ls -la
+  290  cd ..
+  291  mv fichier /tmp
+  292  ls
+  293  cd /tmp
+  294  ls
+  295  touch fichier
+  296  mv fichier /toto
+  297  sudo mv fichier /toto
+  298  echo $?
+  299  touch fichier 
+  300  ls
+  301  echo $?
+  302  sudo mv fichier rep
+  303  cd
+  304  cd rep
+  305  ls
+  306  ls -la
+  307  cd ..
+  308  cd tmp
+  309  cd /tmp
+  310  ls
+  311  ls -la
+  312  cd ..
+  313  cd rep
+  314  ls
+  315  mv rep home
+  316  ls
+  317  id 
+  318  cd home/mehdi
+  319  mv rep home/mehdi
+  320  mv /tmp/rep home/mehdi
+  321  mv /tmp/rep /home/mehdi
+  322  ls
+  323  ls -l 
+  324  ls -l rep
+  325  cd /tmp
+  326  ls
+  327  cd ..
+  328  python3
+  329  curl monip.org
+  330  python
+  331  mouny
+  332  mount
+  333  cd
+  334  nano creer.sh
+  335  creer.sh
+  336  cat creer.sh
+  337  tac creer.sh
+  338  sh creer.sh
+  339  sh
+  340  su
+  341  ps axf
+  342  ls -l / |grep a
+  343  ls -l / |grep a --color
+  344  ls -l / |grep y --color
+  345  ls -l / | grep y --color | grep bin
+  346  ls -l / | grep b --color | grep bin
+  347  ls -l / | grep bin  --color | grep bin
+  348  ls -l / | grep i  --color | grep bin
+  349  apt install wfrench
+  350  sudo apt install wfrench
+  351  grep voit usr/share/dict/french
+  352  grep voit /usr/share/dict/french 
+  353  grep mehdi /usr/share/dict/french 
+  354  grep me /usr/share/dict/french 
+  355  man grep
+  356  grep -v voit /usr/share/dict/french 
+  357  time fgrep -v voit /usr/share/dict/french 
+  358  time grep -v voit /usr/share/dict/french 
+  359  time fgrep a.c  /usr/share/dict/french 
+  360  time fgrep a.o  /usr/share/dict/french 
+  361  time grep a.o  /usr/share/dict/french 
+  362  time fgrep a.o  /usr/share/dict/french 
+  363  time grep a.*o  /usr/share/dict/french 
+  364  curl https://crisco2.unicaen.fr/des/synonymes/voiture
+  365  curl https://crisco2.unicaen.fr/des/synonymes/voiture | grep <li>
+  366  curl https://crisco2.unicaen.fr/des/synonymes/voiture | grep "li"
+  367  ls /mnt/c
+  368  sudo ls /mnt/c
+  369  cd /mnt/c
+  370  ls
+  371  cd Users
+  372  ls
+  373  sudo ls
+  374  cd mehdi
+  375  ls
+  376  cd Downloads
+  377  ls
+  378  ls | grep voiture
+  379  voiture.html
+  380  cd voiture_fichiers
+  381  ls
+  382  cd ..
+  383  ls -lrt
+  384  cd voiture.html
+  385  voiture.html | grep i
+  386  sed -e 's/<[^>]*>//g' voiture.html
+  387  sed -e 's/<[^>]*>//g' voiture.html 
+  388  grep synone voiture.html  |sed -e 's/<[^>]*>//g' 
+  389  grep synon voiture.html  |sed -e 's/<[^>]*>//g' 
+  390  grep synon voiture.html  |more 
+  391  grep synon voiture.html  
+  392  grep synon voiture.html  |more 
+  393  sed -e 's/<[^>]*>//g' voiture.html 
+  394  cat /usr/share/words/french |grep "a.*
+  395  ls / | head -2
+  396  ls / | head -7
+  397  ls /
+  398  ls / | head -2
+  399  ls / | TAIL -2
+  400  ls / | tail -2
+  401  sh
+  402  cd
+  403  mkdir -p "a"
+  404  cat /usr/share/dict/french | grep "a.*" | head -10 | while read word; do echo "$word" done
+  405  nano 
+  406  creer2.sh
+  407  sh creer2.sh
+  408  ls
+  409  cs a
+  410  cd a
+  411  ls
+  412  cd a
+  413  cd ;..
+  414  cd ..
+  415  cd
+  416  pwd
+  417  cd /
+  418  ls
+  419  cd /home/mehdi
+  420  cd ~
+  421  cd /
+  422  ls
+  423  cd media
+  424  ls
+  425  cd .
+  426  cd ..
+  427  clear
+  428  ls
+  429  cd etc
+  430  ls
+  431  cd apt
+  432  ls
+  433  cd /bin
+  434  ls
+  435  cd /
+  436  ls 
+  437  ls -ad
+  438  ls -a
+  439  ls -l
+  440  ls -l -a
+  441  cd
+  442  clear
+  443  ls
+  444  ls -a
+  445  ls-la
+  446  ls -la
+  447  cd a
+  448  ls
+  449  cd ..
+  450  ls -al
+  451  vim plouf.txt
+  452  sudo apt-get install vim
+  453  vim plouf.txt
+  454  touch plouf2
+  455  ls
+  456  vim plouf.txt
+  457  ls -la
+  458  cd python
+  459  ls
+  460  exit
+  461  cd python
+  462  cd ..
+  463  vim plouf.txt
+  464  ls
+  465  man ls
+  466  ls
+  467  cd /
+  468  ls
+  469  echo $0
+  470  cd /bin
+  471  ls
+  472  csh
+  473  sudo apt-get install csh
+  474  csh
+  475  mount
+  476  cd /mnt/c
+  477  ls
+  478  cd Users/mehdi/OneDrive/Bureau/COURS/PYTHON/teste.py 
+  479  cd Users/mehdi/OneDrive/Bureau/COURS/PYTHON/
+  480  py teste.py
+  481  python teste.py
+  482  python fonctions.py 
+  483  ls -lrt
+  484  ls -lrt | tail -2
+  485  ls -lt | tail -2
+  486  ls -lrt | tail -2
+  487  ls -rt | tail -2
+  488  mkdir -p /tmp/old
+  489  mkdir -pv /tmp/old
+  490  ls -rt | tail -2
+  491  ls -ld tmp/okd
+  492  ls -ld tmp/old
+  493  h
+  494  history
+  495  h
+  496  apt-get install h
+  497  sudo apt-get install h
+  498  ls tmp/old/
+  499  cd
+  500  ls -ld /tmp/old/
+  501  ls -ld /tmp/
+  502  ls /
+  503  which ls
+  504  cd bin
+  505  cd /bin
+  506  ls
+  507  which mkdir 
+  508  ls -l
+  509  ls -l | grep tail
+  510  which tail
+  511  cd
+  512  id
+  513  sudo id
+  514  ls /
+  515  cat /etc/passwd
+  516  ls -rt |tail -2
+  517  touch a b
+  518  ls -rt |tail -2
+  519  ls -rt |tail -4
+  520  ls -rt |tail -2 | xargs -i echo '{}' /tmp/old/
+  521  ls -rt |tail -2 | xargs -i echo mv '{}' /tmp/old/
+  522  ls -rt |tail -2 | xargs -i echo mv -v '{}' /tmp/old/ | sh
+  523  plik
+  524  sudo apt-get install plik
+  525  ps -elf
+  526  ps -edf
+  527  ps -axf
+  528  ps -auxf
+  529  htop
+  530  sudo apt-get install htop
+  531  htop
+  532  top
+  533  ps
+  534  ps ux
+  535  ps a
+  536  ps -edf
+  537  ps axf
+  538  free -h
+  539  bc -ql
+  540  sudo apt-get install bc
+  541  bc -ql
+  542  ls -l /bin | more
+  543  ls > /tmp/ls.log
+  544  cd /tmp/ls.log 
+  545  cd /tmp/
+  546  ls ls.log 
+  547  ls -v  > /tmp/ls.log
+  548  cat /tmp/ls.log
+  549  more  /tmp/ls.log
+  550  cd
+  551  cat /etc/passwd - more
+  552  cat /etc/passwd | more
+  553  echo bonjour | rev
+  554  echo bonjour | wc
+  555  echo bonjour| wc
+  556  printf "bonjour" | wc
+  557  printf "bonjour\n" | wc
+  558  ls > /tmp/ls.log
+  559  echo $?
+  560  ls /sdfsdf 2> /tmp/ls_err.log
+  561  $?
+  562  echo $?
+  563  ls /sdfsdf 2> /tmp/ls_err.log
+  564  echo $?
+  565  cat$?
+  566  cat $?
+  567  tee
+  568  cat /etc/passwd
+  569  cat /etc/passwd | cut -d: -f1
+  570  cat /etc/passwd | cut -d: -f2
+  571  cat /etc/passwd | cut -d: -f3
+  572  pwd
+  573  cat /etc/passwd | cut -d: -f6
+  574  cat /etc/passwd
+  575  cat /etc/passwd | cut -d: -f6
+  576  cat /etc/passwd | cut -d: -f6-7
+  577  cat /etc/passwd | cut -d: -f6,7
+  578  cat /etc/passwd | awk -F: '{print $6}'
+  579  cat /etc/passwd | awk -F: '{print $5}'
+  580  ls -l  | awk -F: '{print $5}'
+  581  ls -l | taill
+  582  ls -l | tail
+  583  ls -l  | awk -F: '{print $5}'
+  584  ls -l  | awk '{print $5}'
+  585  cat /etc/passwd | awk -F: '{print $1}' | sort
+  586  cat /etc/passwd | awk -F: '{print $3}' | sort -n
+  587  wget 192.168.22.13:7777/a.log
+  588  myip
+  589  sudo apt-get install myip
+  590  more a.log
+  591  cat a.log | awk {$1}
+  592  cat a.log | awk '{print $1}'
+  593  cat a.log | awk '{print $1}' | sort -n
+  594  cat a.log | awk '{print $1}' | sort -n | uniq -u
+  595  cat a.log | awk '{print $1}' | sort -nr | uniq -c
+  596  cat a.log | awk '{print $1}' | sort -n | uniq -c
+  597  cat a.log | awk '{print $1}' | sort -n | uniq -c | wc -l
+  598  cat a.log | awk '{print $1}' | sort -n | uniq -c | wc 
+  599  cat a.log | awk '{print $1}' | sort -n | uniq -c | wc -w
+  600  cat a.log | awk '{print $1}' | sort -n | uniq -c | wc -s
+  601  cat a.log | awk '{print $1}' | sort -n | uniq -c | wc -c
+  602  cat a.log | awk '{print $1}' | sort -n | uniq -c 
+  603  cat a.log | awk '{print $1}' | sort | uniq -c | sort -n 
+  604  cat a.log | awk '{print $3}'  
+  605  cat a.log | awk '{print $5}'  
+  606  cat a.log | awk '{print $6}'  
+  607  cat a.log | awk '{print $6&7}'  
+  608  cat a.log | awk '{print $7}'  
+  609  sudo apt-get install ccze
+  610  cat a.log | awk '{print $7}'  
+  611  cat a.log | awk '{print $7}' | uniq -c
+  612  cat a.log | awk '{print $7}' | uniq -c | sort -n
+  613  cat a.log | awk '{print $7}' | sort | uniq -c | sort -n
+  614  cat a.log | awk '{print $7}' | sort 
+  615  cat a.log | awk '{print $7}' | sort | uniq -c | sort -n
+  616  cat a.log | awk '{print $7-8}' | sort | uniq -c | sort -n
+  617  cat a.log | awk '{print $7}' | sort | uniq -c | sort -n
+  618  cat a.log | awk '{print ($NF-1)}' | sort | uniq -c | sort -n
+  619  cat a.log | awk '{print ($NF-1)}' 
+  620  cat a.log | awk '{print $(NF-1)}' 
+  621  cat a.log | awk '{print $(NF-1)}' | uniq -c
+  622  cat a.log | awk '{print $(NF-1)}' | uniq -c | sort
+  623  cat a.log | awk '{print $(NF-1)}' | uniq -c | sort | tail
+  624  cat a.log | awk '{print $(NF-1)}' | uniq -c | tail
+  625  cat a.log | awk '{print $(NF-2)}' | uniq -c | tail
+  626  cat a.log | awk '{print $(NF-2)}' | uniq -c 
+  627  cat a.log | awk '{print $(NF-2)}' | uniq 
+  628  cat a.log | awk '{print $(NF-2)}' | uniq | sort -n
+  629  cat a.log | awk '{print $(NF-2)}' | uniq | sort -nu
+  630  cat a.log | awk '{print $(NF-2)}' | uniq | sort -nu | tail -l
+  631  cat a.log | awk '{print $(NF-2)}' | uniq | sort -nu | tail -1
+  632  cat a.log | awk '{print $(NF-2)}' | uniq | sort -n
+  633  cat a.log | awk '{print $(NF-2)}' | uniq | sort -nu | tail -l
+  634  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -nu | tail -1
+  635  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -nu | tail -1 & tail 1
+  636  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -nu | tail -1 | tail 1
+  637  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -nu | tail -1 
+  638  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -nu | head -1
+  639  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -nu | head -1 & tail -1
+  640  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -nu | head -1 
+  641  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -n | head -1 
+  642  cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -n | head -1; cat a.log | awk '{print $(NF-2)}' | uniq -c | sort -n | tail -1 
+  643  cat a.log | awk '{print $(NF-2)}' | sort -n | head -1; cat a.log | awk '{print $(NF-2)}' | sort -n | tail -1 
+  644  echo $(aaa)
+  645  echo $(echo a)
+  646  echo a
+  647  echo $(3+5)
+  648  echo $((3+5))
+  649  echo aaa | tr a-z A-Z
+  650  cat a.log | awk '{print $(NF-2)}' | sed 's/0\.//' | head
+  651  nano del.sh
+  652  sh del.sh
+  653  nano del.sh
+  654  pwd
+  655  bash del.sh
+  656  nano del.sh
+  657  bash del.sh
+  658  curl localhost
+  659  sudo curl localhost
+  660  sudo curl localhost:80
+  661  curl -I localhost
+  662  curl -ipv4 localhost
+  663  vim arg.sh
+  664  nano args.sh
+  665  ls -l args.sh
+  666  ./args.sh
+  667  chmod +x args.sh
+  668  ls -l args.sh
+  669  ./args.sh
+  670  chmod  o-x args.sh 
+  671  ls -l args.sh
+  672  chmod  g-x args.sh 
+  673  ls -l args.sh
+  674  man chmod
+  675  chmod 0755 args.sh
+  676  ls -l args.sh
+  677  ./args.sh
+  678  ./args.sh mehdi
+  679  nano args.sh
+  680  ./args.sh mehdi
+  681  ./args.sh www.google.com
+  682  ./args.sh 
+  683  ./args.sh localhost
+  684  nano args.sh
+  685  ./args.sh www.google.com
+  686  nano args.sh
+  687  ./args.sh www.google.com
+  688  ./args.sh 192.168.22.13
+  689  IP A AL
+  690  ip a l
+  691  ./args.sh 192.168.22.13
+  692  nano args.sh
+  693  ./args.sh 192.168.22.13
+  694  ./args.sh 192.168.22.133
+  695  ./args.sh 
+  696  nano args.sh 
+  697  ./args.sh && echo "test OK"
+  698  ./args.sh && echo "test OK" || "test FAIL"
+  699  ./args.sh && echo "test OK" || echo "test FAIL"
+  700  ./args.sh > /dev/null  && echo "test OK" || echo "test FAIL"
+  701  nano args.sh 
+  702  ./args.sh 192.168.22.13
+  703  nano args.sh 
+  704  ./args.sh 192.168.22.13
+  705  nano args.sh 
+  706  for i in {1..15};do echo $1; done
+  707  for i in {1..15}; do echo $1; done
+  708  for i in {1..15}; do echo $i; done
+  709  for i in {1.15}; do echo $i; done
+  710  for i in {1..15}; do echo $i; done
+  711  mkdir compress
+  712  touch compress/{a,z}
+  713  ls
+  714  cd compress/a
+  715  find compress
+  716  tar zcvf test.tar.gz compress/
+  717  ls
+  718  cd compress/
+  719  ls
+  720  cd ..
+  721  rm -rf compress/
+  722  tar zxvf test.tar.gz
+  723  rm -rf compress/
+  724  tar xvf test.tar.gz
+  725  ls -l /mnt/c
+  726  ls -l /mnt/c/Users/mehdi/Desktop/
+  727  cp test.tar.gz /mnt/c/Users/mehdi/Desktop/
+  728  cp test.tar.gz /mnt/c/
+  729  cp test.tar.gz /mnt/c/tmp/.
+  730  cp test.tar.gz /mnt/c/tmp/
+  731  pwd
+  732  mkdir -p rendu/ex01
+  733  cd rend
+  734  cd rendu/
+  735  ls
+  736  nano ex01.sh
+  737  cd ex01
+  738  touch heure1.sh
+  739  nano heure1.sh
+  740  nano args.sh
+  741  nano heure1.sh
+  742  cd rendu/ex01
+  743  ls
+  744  ./heure1.sh
+  745  nano /heure1.sh
+  746  date
+  747  cd rendu/ex01
+  748  ./heure1.sh
+  749  ls
+  750  nano heure1.sh 
+  751  ./heure1.sh
+  752  ls -ld 
+  753  ls -lda
+  754  ls -l
+  755  chmod +x heure1.sh 
+  756  ls -l
+  757  chmod o-x heure1.sh 
+  758  chmod g-x heure1.sh 
+  759  ls -l
+  760  ./heure1.sh
+  761  mkdir -p rendu/ex02
+  762  cd ..
+  763  ls
+  764  rm ex01.sh
+  765  ls
+  766  mkdir -p rendu/ex02
+  767  ls
+  768  rm rendu
+  769  rkdir rendu
+  770  rmkdir rendu
+  771  rmdir rendu
+  772  rmdir rend
+  773  ls
+  774  cd rendu
+  775  rmdir rendu
+  776  ls
+  777  rmdir ex02/
+  778  cd ..
+  779  rmdir rendu/
+  780  ls
+  781  cd ..
+  782  mkdir -p rendu/ex02
+  783  find
+  784  cd rendu
+  785  ls
+  786  cd ex01/
+  787  ls
+  788  rmdir rendu
+  789  nano heure1.sh 
+  790  cd rendu/
+  791  ls
+  792  cd ex02/
+  793  rmdir ex02
+  794  cd ..
+  795  rmdir ex02
+  796  ls
+  797  rmdir rendu
+  798  cd..
+  799  cd ..
+  800  rmdir rendu
+  801  ls
+  802  cd ..
+  803  ls
+  804  cd ex02
+  805  ls
+  806  touch heure2.sh
+  807  cd
+  808  ls
+  809  cd rendu/
+  810  ls
+  811  cd ex01
+  812  ls
+  813  cd ..
+  814  cd ex02
+  815  ls
+  816  nano heure2.sh
+  817  date %s
+  818  date -s
+  819  date -%s
+  820  date --help
+  821  date -s %s
+  822  date -s "%s"
+  823  date +%s
+  824  ls
+  825  nano heure2.sh 
+  826  chmod u+x heure2.sh 
+  827  ls
+  828  ls -la
+  829  ./heure2.sh 
+  830  cd
+  831  mkdir -p rendu/ex03
+  832  cd rendu/ex03
+  833  ls
+  834  touch cd.sh
+  835  nano cd.sh
+  836  chmod u+x cd.sh 
+  837  ls -la
+  838  ./cd.sh 
+  839  ls
+  840  cd 
+  841  mkdir -p rendu/ex04
+  842  cd rendu/ex04
+  843  touch -v verification.sh
+  844  touch verification.sh
+  845  nano verification.sh 
+  846  chmod u+x verification.sh 
+  847  ./verification.sh 
+  848  nano verification.sh 
+  849  ./verification.sh 
+  850  nano verification.sh 
+  851  ls
+  852  cd 
+  853  mkdir -p rendu/ex05
+  854  cd rendu/ex05
+  855  touch test_curl.sh
+  856  ls
+  857  nano test_curl.sh 
+  858  ls
+  859  ./test_curl.sh
+  860  chmod u+x test_curl.sh 
+  861  ls -la
+  862  ./test_curl.sh
+  863  nano test_curl.sh 
+  864  ./test_curl.sh
+  865  nano test_curl.sh 
+  866  ./test_curl.sh
+  867  nano test_curl.sh 
+  868  ./test_curl.sh
+  869  nano test_curl.sh 
+  870  ./test_curl.sh
+  871  nano test_curl.sh 
+  872  ./test_curl.sh
+  873  nano test_curl.sh 
+  874  ./test_curl.sh
+  875  nano test_curl.sh 
+  876  ./test_curl.sh
+  877  ./test_curl.sh ww
+  878  chmod u+x test_curl.sh 
+  879  ./test_curl.sh ww
+  880  ./test_curl.sh www.google.com
+  881  nano test_curl.sh 
+  882  ./test_curl.sh www.google.com
+  883  nano test_curl.sh 
+  884  ./test_curl.sh www.google.com
+  885  nano test_curl.sh 
+  886  ./test_curl.sh www.google.com
+  887  ./test_curl.sh www.google.co
+  888  ./test_curl.sh zrthghsg
+  889  nano test_curl.sh 
+  890  ./test_curl.sh 
+  891  nano test_curl.sh 
+  892  ./test_curl.sh 
+  893  ./test_curl.sh egae
+  894  ./test_curl.sh 
+  895  nano test_curl.sh 
+  896  cd
+  897  mkdir -p rendu/ex06
+  898  cd rendu/ex06
+  899  touch historique.sh
+  900  nano historique.sh 
+  901  chmod u+x historique.sh 
+  902  ./historique.sh 
+  903  ls
+  904  nano historique.sh 
+  905  ./historique.sh 
+  906  history 
+  907  history | tail -n 15
+  908  nano historique.sh 
+  909  ./historique.sh 
+  910  nano historique.sh 
+  911  ./historique.sh 
+  912  ls
+  913  nano historique.sh 
+  914  ls -la
+  915  nano historique.sh 
+  916  history | tail -n 15
+  917  ./historique.sh 
+  918  . ./historique.sh 
+  919  cd
+  920  mkdir -p rendu/ex07
+  921  cd -p rendu/ex07
+  922  cd rendu/ex07
+  923  ls
+  924  touch add.sh
+  925  nano add.sh 
+  926  chmod u+x add.sh 
+  927  ls
+  928  ls -la
+  929  ./add.sh 
+  930  nano add.sh 
+  931  ./add.sh 
+  932  ./add.sh 1 2
+  933  nano add.sh 
+  934  ./add.sh 1 2
+  935  nano add.sh 
+  936  ./add.sh 1 2
+  937  ./add.sh 
+  938  nano add.sh 
+  939  ./add.sh 
+  940  ./add.sh 1 2
+  941  nano add.sh 
+  942  ./add.sh 1 2
+  943  cd
+  944  mkdir -p rendu/ex08
+  945  cd rendu/ex08
+  946  touch sum200.sh
+  947  nano sum200.sh 
+  948  ls
+  949  chmod u+x sum200.sh 
+  950  ./sum200.sh 
+  951  nano sum200.sh 
+  952  ./sum200.sh 
+  953  cd ..
+  954  ls
+  955  cd ex02
+  956  nano heure2.sh 
+  957  ./heure2.sh 
+  958  cd ..
+  959  cd /ex08
+  960  cd ex08
+  961  ls
+  962  nano sum200.sh 
+  963  cd ex01
+  964  cd /ex01
+  965  cd
+  966  cd /rendu/ex01
+  967  cd rendu/ex01
+  968  ls
+  969  ./heure1.sh 
+  970  cd ..
+  971  cd ex02
+  972  ./
+  973  ls
+  974  ./heure2.sh 
+  975  cd ..
+  976  cd ex03
+  977  ls
+  978  rmdir rep
+  979  ls
+  980  ./cd.sh 
+  981  nano cd.sh 
+  982  exit
+  983  nano cd.sh 
+  984  ./cd.sh 
+  985  exit
+  986  cd ..
+  987  cd x
+  988  cd ex04
+  989  ls
+  990  ./verification.sh 
+  991  nano verification.sh 
+  992  ls
+  993  cd ..
+  994  cd ex05
+  995  ls
+  996  ./test_curl.sh 
+  997  ./test_curl.sh www.google.com
+  998  nano test_curl.sh 
+  999  ./test_curl.sh www.google.com
+ 1000  ./test_curl.sh www.google.co
+ 1001  ./test_curl.sh www.google
+ 1002  ./test_curl.sh www.googl
+ 1003  cd . .
+ 1004  cd ..
+ 1005  cd ex06
+ 1006  ls
+ 1007  nano historique.sh 
+ 1008  . ./historique.sh 
+ 1009  exit
+ 1010  cd rendu/ex07
+ 1011  ls
+ 1012  nano add.sh 
+ 1013  ./add.sh 
+ 1014  ./add.sh 1 2
+ 1015  cd . .
+ 1016  cd ..
+ 1017  cd ex08
+ 1018  ls
+ 1019  nano sum200.sh 
+ 1020  for i in {0..200};do echo $i; done | ./sum200.sh sum200.sh 
+ 1021  for i in {0..200};do echo $i; done | ./sum200.sh 
+ 1022  cd ..
+ 1023  cd 
+ 1024  mkdir -p rendu/ex09
+ 1025  ls
+ 1026  cd rendu/ex09
+ 1027  ls
+ 1028  nano mean200.sh
+ 1029  ls
+ 1030  chmod u-x mean200.sh 
+ 1031  ld
+ 1032  ls
+ 1033  ls -la
+ 1034  chmod u-x mean200.sh 
+ 1035  ls -la
+ 1036  chmod u+x mean200.sh 
+ 1037  ls -la
+ 1038  for i in {0..200};do echo $i;done | ;/m
+ 1039  for i in {0..200};do echo $i;done | ./mean200.sh 
+ 1040  exit
+ 1041  mkdir -p /rendu/exo10
+ 1042  mkdir -p rendu/ex10
+ 1043  cd rendu/ex10
+ 1044  nano mean_sum200.sh
+ 1045  cd ..
+ 1046  cd ex09
+ 1047  nano mean200.sh 
+ 1048  for i in {0..200};do echo $i;done | ./mean200.sh 
+ 1049  nano mean200.sh 
+ 1050  for i in {0..200};do echo $i;done | ./mean200.sh 
+ 1051  nano mean200.sh 
+ 1052  for i in {0..200};do echo $i;done | ./mean200.sh 
+ 1053  nano mean200.sh 
+ 1054  for i in {0..200};do echo $i;done | ./mean200.sh 
+ 1055  nano mean200.sh 
+ 1056  for i in {0..200};do echo $i;done | ./mean200.sh 
+ 1057  cd ..
+ 1058  ls
+ 1059  cd ex10
+ 1060  ls
+ 1061  nano mean_sum200.sh 
+ 1062  ls
+ 1063  chmod u+x mean_sum200.sh 
+ 1064  ls -l
+ 1065  ls -la
+ 1066  for i in {0..200};do echo $i;done | ./mean_sum200.sh 
+ 1067  nano mean_sum200.sh 
+ 1068  for i in {0..200};do echo $i;done | ./mean_sum200.sh 
+ 1069  nano mean_sum200.sh 
+ 1070  for i in {0..200};do echo $i;done | ./mean_sum200.sh 
+ 1071  ~/rendu _ ls -l
+ 1072  cd ..
+ 1073  _ ls -l
+ 1074  ls -l
+ 1075  cd ex01
+ 1076  ls
+ 1077  ./heure1.sh 
+ 1078  cd ..
+ 1079  cd ex02
+ 1080  ./heure2.sh 
+ 1081  cd ..
+ 1082  cd ex03
+ 1083  ./cd.sh 
+ 1084  ls
+ 1085  rmdir rep
+ 1086  nano cd.sh 
+ 1087  ls
+ 1088  cd ..
+ 1089  cd ex04/
+ 1090  ls
+ 1091  ./verification.sh 
+ 1092  cd ..
+ 1093  cd ex05
+ 1094  ls
+ 1095  ./test_curl.sh 
+ 1096  ./test_curl.sh ww
+ 1097  ./test_curl.sh www.google.com
+ 1098  cd .;
+ 1099  cd ..
+ 1100  cd ex06
+ 1101  ls
+ 1102  ./historique.sh 
+ 1103  . ./historique.sh 
+ 1104  cd ..
+ 1105  cd ex07
+ 1106  ./add.sh 
+ 1107  nano add.sh 
+ 1108  ./add.sh 
+ 1109  cd testDO/
+ 1110  ls
+ 1111  git clone git@github.com:Mehbarki/testDO.git testDO2
+ 1112  ls
+ 1113  rmdir testDO2/
+ 1114  cd testDO2/
+ 1115  ls -la
+ 1116  cd .git
+ 1117  ls
+ 1118  cd ..
+ 1119  rmdir .git
+ 1120  .git
+ 1121  cd .git
+ 1122  rm*
+ 1123  rm *
+ 1124  cd branches/
+ 1125  ls -la
+ 1126  rm*
+ 1127  rm *
+ 1128  cd ..
+ 1129  cd
+ 1130  sudo rm /testDO/testDO2
+ 1131  git clone git@github.com:Mehbarki/testDO.git testDO2
+ 1132  ls
+ 1133  cd testDO2
+ 1134  ls
+ 1135  nano fichier_a 
+ 1136  git status
+ 1137  echo "ccccc" >> fichier_a 
+ 1138  git diff
+ 1139  git commit
+ 1140  git add
+ 1141  git add -m "update fichier a (testDO2)"
+ 1142  git commit -m "update fichier a (testDO2)"
+ 1143  git add fichier_a 
+ 1144  git status
+ 1145  git commit -m "update fichier a (testDO2)"
+ 1146  git push 
+ 1147  git pull
+ 1148  nano fichier_a 
+ 1149  cd
+ 1150  git clone git@github.com:Mehbarki/ipssi_2019.git ipssi_2019
+ 1151  cd ipssi_2019/
+ 1152  ls -la
+ 1153  nano README.md 
+ 1154  git status
+ 1155  git add -p 
+ 1156  git status
+ 1157  git commit -m "Edit the READ.md"
+ 1158  git push
+ 1159  git -la
+ 1160  ls -la
+ 1161  nano README.md 
+ 1162  mkdir scripts
+ 1163  ls
+ 1164  cd
+ 1165  ls
+ 1166  cd test.tar.gz 
+ 1167  cd rendu/
+ 1168  ls
+ 1169  cd ..
+ 1170  cp -r /rendu
+ 1171  cp -r rendu
+ 1172  cp -r rendu/ ipssi_2019/
+ 1173  cd ipssi_2019/
+ 1174  ls -la
+ 1175  git status
+ 1176  git add -p
+ 1177  git add rendu/
+ 1178  git status
+ 1179  git reset
+ 1180  git status
+ 1181  git add README.md 
+ 1182  git status
+ 1183  git add README.md 
+ 1184  git status
+ 1185  git commit -m "Update typo name in READ.md"
+ 1186  git log
+ 1187  git push
+ 1188  git push 4fff7e680bb70d357
+ 1189  git push
+ 1190  git push origin/master
+ 1191  git push mehbarki/ipssi_2019
+ 1192  ls -la
+ 1193  rmdir scripts/
+ 1194  ls -la
+ 1195  git log
+ 1196  git status
+ 1197  git push
+ 1198  git status
+ 1199  git add rendu/
+ 1200  git status
+ 1201  git commit -m "Add scripts shell"
+ 1202  git push
+ 1203  ls
+ 1204  history > histo_2019-11-06.txt
