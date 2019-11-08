@@ -1,15 +1,3 @@
-HTTP/1.1 200 OK
-Date: Fri, 08 Nov 2019 14:42:39 GMT
-Expires: -1
-Cache-Control: private, max-age=0
-Content-Type: text/html; charset=ISO-8859-1
-P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
-Server: gws
-X-XSS-Protection: 0
-X-Frame-Options: SAMEORIGIN
-Set-Cookie: 1P_JAR=2019-11-08-14; expires=Sun, 08-Dec-2019 14:42:39 GMT; path=/; domain=.google.com
-Set-Cookie: NID=191=PS7XYHdfT9MjlLZ4mIAJIPPROEcuszkuvI9cQ3b3m8tLGzRdKmWsK7U9MnDmQQoB3DKCP1erSLuTQXWTK8nIl7K2wc4J0g_F6pChAsmf_ew7PkJ-yPYl9fU40B426jN5YSmWoc3hd9oSX4aLUYsv0e0wdlTXoySrNM4meu1NaUc; expires=Sat, 09-May-2020 14:42:38 GMT; path=/; domain=.google.com; HttpOnly
-Transfer-Encoding: chunked
-Accept-Ranges: none
-Vary: Accept-Encoding
-
+2019-11-08:15:59:07 internet ok
+2019-11-08:15:59:09 internet ok
+2019-11-08:15:59:09 internet ok
