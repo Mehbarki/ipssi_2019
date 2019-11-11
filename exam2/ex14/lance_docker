@@ -1,4 +1,0 @@
-#!/bin/bash
-
-docker run -d --mount source=/out,target=/tmp
-
