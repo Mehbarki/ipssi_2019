@@ -6,5 +6,6 @@ Hello everyone, this git project is a summary project of the modules we have see
 
 - ex01 ok  
 - ex02 ok 
-- ex03 manque le filtrage avec la fonction split()
-- `exo 4`
+- ex03 ok
+- `exo 4` ok
+- `exo14` le docker n'a pas accès à mon repository /tmp, maybe the path is wrong 
