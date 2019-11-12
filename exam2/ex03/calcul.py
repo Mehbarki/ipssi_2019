@@ -1,11 +1,15 @@
 #!/usr/bin/python3
 
+
 def division(a, b):
-    if a == 0 or  b == 0:
+    div = 0
+    if a == 0 or b == 0:
         print("sorry cannot divide by zero")
-        return print(0)
+        return div
     else:
-        return print(a/b)
+        div = a / b
+        return div
 
 def multiplication(a, b):
-    return print(a*b)
+    mul = a * b
+    return mul

@@ -9,6 +9,5 @@ def logthis(string):
     fichier.write(date_format)
     fichier.write(" ")
     fichier.write(string)
-    fichier.write(" ")
     fichier.write("\n")
     fichier.close
