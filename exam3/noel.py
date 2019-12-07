@@ -1,44 +1,43 @@
 #!/usr/bin/python3
+
 import sys
 import calendar
 from datetime import datetime
-def show_noel(allArg):
-    if len(allArg) > 1:
-        date_time_str = allArg[1]
-        theDate = datetime.strptime(date_time_str, '%Y-%m-%d')
-    else:
-        theDate = datetime.now()
-    yearForChristmas = datetime.now().year
+from datetime import date
+from tree import show_tree
 
-    # Définit si noël aura lieu cette année ou l'année prochaine (Si on est le 26 Décembre par exemple)
-
-    if theDate.strftime('%Y-%m-%d') > str(datetime.now().year)+"-12-25":
-        yearForChristmas = datetime.now().year+1
-    dateToNextChristmas = datetime.strptime(str(yearForChristmas)+"-12-25", "%Y-%m-%d")
-    daysBfChristmas = str(abs((dateToNextChristmas - theDate).days))+" days before christmas\n"
-    c = calendar.TextCalendar(calendar.MONDAY)
-    firstCalendar = c.formatmonth(theDate.year, theDate.month, 5, 1)
-    firstCalendar = firstCalendar.replace(str(theDate.day), "("+str(theDate.day)+")", 1)
-    c = calendar.TextCalendar(calendar.MONDAY)
-    secondCalendar = c.formatmonth(yearForChristmas, 12, 5, 1)
-    secondCalendar = secondCalendar.replace(" 25 ", "[25]", 1)
-    sapin = """
-        x
-       xxx
-      xxxxx
-     xxxxxxx
-    xxxxxxxxx
-   xxxxxxxxxxx
-  xxxxxxxxxxxxx
- xxxxxxxxxxxxxxx
-       xxx
-       xxx
-       xxx
-       xxx
-        """
-    if theDate.strftime('%Y-%m-%d') == str(theDate.year)+"-12-25":
-        return sapin
+def show_noel(date_donnee):
+    if len(date_donnee) == 1:
+            date_donnee = datetime.now()
     else:
-        return daysBfChristmas+firstCalendar+secondCalendar
+        date_donnee = date_donnee[1]
+        date_donnee = datetime.strptime(date_donnee, '%Y-%m-%d')
+
+    if date_donnee.day > 25 and date_donnee.month > 11:
+        noel = datetime(date_donnee.year + 1, 12, 25)
+    else:
+        noel = datetime(date_donnee.year, 12, 25)
+
+    jours_noel = (noel - date_donnee).days
+
+
+    print(jours_noel, "days before christmas\n")
+
+    c = calendar.TextCalendar (calendar.MONDAY)
+
+    calendrier = c.formatmonth (date_donnee.year, 12, 1, 0)
+
+    if date_donnee.day > 25 and date_donnee.month > 11:
+        for i in range (1, 13, 1):
+            calendrier = calendrier + c.formatmonth (date_donnee.year + 1, i, 1, 0)
+        return calendrier
+    elif date_donnee.day == 25 and date_donnee.month == 12:
+        return show_tree(10)
+    else:
+        calendrier = c.formatmonth (date_donnee.year, date_donnee.month, 1, 0)
+        for i in range (date_donnee.month + 1, 13, 1):
+            calendrier = calendrier + c.formatmonth (date_donnee.year, i, 1, 0) 
+        return calendrier
+
 if __name__ == "__main__":
     print(show_noel(sys.argv))

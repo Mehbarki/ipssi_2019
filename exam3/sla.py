@@ -1,27 +1,16 @@
 #!/usr/bin/python3
 
-from sys import argv
-from math import floor
+import sys
+import time
 
-SECONDE = 1
-MINUTE = 60 * SECONDE
-HEURE = 60 * MINUTE
-JOUR = 24 * HEURE
-AN = 365 * JOUR
+def show_sla (pourcentage):
+    indisp_en_sec = 3600 * 24 * 365.25 * ((100 - pourcentage) / 100)
+    heure = int (indisp_en_sec / 3600)
+    minute = int (indisp_en_sec % 3600 / 60)
+    seconde = int (indisp_en_sec % 3600 % 60)
 
-
-def show_sla(disponibilite):
-    indisponibilite_ratio = (100 - disponibilite) / 100
-    secondes_indisponibles = AN * indisponibilite_ratio
-    jours = floor(secondes_indisponibles / JOUR)
-    reste = secondes_indisponibles - (jours * JOUR)
-    heures = floor(reste / HEURE)
-    reste = reste - (heures * HEURE)
-    minutes = floor(reste / MINUTE)
-    reste = reste - (minutes * MINUTE)
-    secondes = floor(reste / SECONDE)
-    return str(jours) + 'd ' + str(heures) + 'h ' + str(minutes) + 'm ' + str(secondes) + 's'
+    return ("{}h {}m {}s".format(heure, minute,seconde))
 
 
 if __name__ == "__main__":
-    print(show_sla(float(argv[1])))
+    print(show_sla(float(sys.argv[1])))
